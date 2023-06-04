@@ -75,18 +75,7 @@ $(document).ready(function(){
 	str = "<h3 style='color:#99627A'> Wajah anda terdeteksi " + data_prediksi + "</h3>";
 
 	console.log("Cek Image Prediksi:", image_prediksi);
-	// if (image_prediksi == "(none)" || !image_prediksi) {
-	// 	str += "<h3 style='color:#99627A; font-size:18px'> Hasil Prediksi </h3>";
-	// 	str += "<br>";
-	// 	str += "<img src='/static/images/uploads/default-img.jpg' class='img-border-radius' width='200'></img>";
-	// 	str += "<h4 style='color:#99627A'>Silahkan masukkan file gambar (.jpg)</h4>";
-	// $("#hasil_prediksi").html(str);
-	// } else {
-	// 	str += "<p style='color:#99627A; font-size:18px'>Hasil Prediksi </p>";
-	// 	str += "<br>";
-	// 	str += "<img src='" + image_prediksi + "' class='img-border-radius' width='200'></img>";
-	// 	str += "<h3 style='color:#99627A'> Wajah anda terdeteksi " + data_prediksi + "</h3>";
-	// }
+
 	
 	$("#hasil_prediksi").html(str);
 	
