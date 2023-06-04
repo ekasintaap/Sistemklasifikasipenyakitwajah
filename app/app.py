@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from werkzeug.utils import secure_filename
+from flask import request
 from PIL import Image
 import numpy as np
 import os
