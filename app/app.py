@@ -1,4 +1,6 @@
 from flask import Flask, render_template, request, jsonify
+from flask import request
+from flask_ngrok import run_with_ngrok
 from werkzeug.utils import secure_filename
 from flask import request
 from PIL import Image
@@ -81,5 +83,5 @@ def apiDeteksi():
 # Menjalankan aplikasi Flask
 if __name__ == '__main__':
     
-    # run_with_ngrok(app)
-    app.run(host="localhost", port=5001, debug=True)
+    run_with_ngrok(app)
+    app.run()
