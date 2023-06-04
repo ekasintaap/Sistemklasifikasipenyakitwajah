@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, jsonify
+from flask import request
 from flask_ngrok import run_with_ngrok
 from werkzeug.utils import secure_filename
 from PIL import Image
